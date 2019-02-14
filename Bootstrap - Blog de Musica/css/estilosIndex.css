@@ -1,0 +1,164 @@
+.musica-body{
+    background-color: #FF3434;
+}
+
+.menu-logo {
+    background-color: #464646;
+    min-height: 50px;
+    border: none;        
+  }
+.menu-sociales {
+    background-color: #464646;
+    min-height: 73px;
+    border: none;
+  }
+.logo-img {
+    width: 15%;
+    height: 15%;
+    margin-top: 11px;
+    margin-bottom: 10px;
+  }
+  .img-social {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-top: 48px;
+    padding-bottom: 5px;
+  }
+  .menu-navbar{
+    background-color: #9B9BC0;    
+    border-radius: 0px 0px 5px 5px;      
+  }
+  
+  .navbar-collapse{
+      text-align: center;
+  }
+  li{
+      margin-left: 10px;
+      width: 16%;
+  }
+
+  .menu-biografia1{
+      background-color: #E2E2F6;
+      margin-top: 30px;
+      text-align: justify;
+      border-radius: 5px 0px 0px 0px;
+  }
+
+  .menu-busqueda{
+    background-color: white;
+    margin-top: 30px;
+    text-align: justify;
+    border-radius: 0px 5px 0px 0px;
+    border-left: 1px solid black;
+  }
+
+  .img-musica{
+    width: 100%;
+    margin-top: 110px;
+    margin-left: 80px;
+  }
+  .img-musica2{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 40px;
+  }
+
+  .text-articulo{
+    color:black;
+    margin-left: 10px;
+  }
+
+  .menu-comentarios{
+      margin-top: 30px;
+  }
+  .icon-comentario{
+     width: 65%;
+     margin-bottom: 10px;
+  }
+  
+  .icon-buscar{
+      width: 25px;
+  }
+  .btn-secondary{
+      margin-top: 15px;
+  }
+  .form-control{
+      margin-top: 0px;
+      height: 39px;
+  }
+
+  .txt-buscar{
+      margin-top: 15px;
+  }
+
+  .espacio{
+      margin-top: 15px;
+  }
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+  @media (max-width: 770px) {    
+    .logo-img{
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        width: 50%;        
+    }
+
+    .menu-sociales{
+        padding-right: 86px;
+    }
+
+    li{        
+        width: 100%;
+    }
+
+    .nav-item>a{
+        text-align: center;
+        margin: 0px;
+    }
+
+    .right-column {
+        display: none;
+      }
+
+    .menu-biografia1{
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .text-articulo{
+        margin-right: 10px;
+      }
+
+      .img-musica{
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .img-musica2{
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+      }
+      
+      .icon-comentario{
+        width: 100%;
+        margin-right: 60px;
+        margin-top: 20px;
+     }
+     .right-column {
+        display: none;
+      }
+  }

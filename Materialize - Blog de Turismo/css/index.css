@@ -1,0 +1,119 @@
+body{
+  background-image: url('../img/fondo7.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top; 
+  }
+
+
+.autor{
+  width: 50%;
+  display:block;
+  margin:auto;
+  margin-top: 20px;
+}
+
+.galeria-principal{
+  margin-top: 15px;
+}
+
+.img-entrada{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.entrada-blog{
+  text-align: justify;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.entrada-blog2{
+  text-align: justify;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.comentario-blog{
+  padding: 20px;
+  margin-left: -11px;
+  margin-right: -11px;
+  margin-top: 20px;
+}
+
+.social{
+  margin: 10px;
+}
+
+.galeria{
+  margin: 10px;
+}
+
+.panel-principal{
+  height: 200px;
+  margin-top: 0px;
+  background-attachment: fixed;
+}
+
+.logo{
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.contenedor-botones{
+  margin-top: 1rem;
+}
+
+.boton-enviar{
+  text-align: right;
+  margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+  /*.columna-grupos{
+    padding: 0 !important;
+  }*/
+  .entrada-blog{
+    text-align: justify;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .img-entrada{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .entrada-blog2{
+    text-align: justify;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .boton-enviar{
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .slogan{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .contenedor-logo{
+    width: 100%
+  }
+
+  .autor{
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+}   
